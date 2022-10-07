@@ -1,5 +1,6 @@
 {
-// 3. Escrever um programa fonte na Linguagem C# que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que esse vendedor ganha 20% de comissão sobre suas vendas efetuadas, o programa deverá informar o nome do vendedor, o salário fixo e salário no final do mês.
+// 3. Escrever um programa fonte na Linguagem C# que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro).
+// Sabendo que esse vendedor ganha 20% de comissão sobre suas vendas efetuadas, o programa deverá informar o nome do vendedor, o salário fixo e salário no final do mês.
 
 string nome;
 double salariofixo, comissao, salariofinal, totalvendas;
