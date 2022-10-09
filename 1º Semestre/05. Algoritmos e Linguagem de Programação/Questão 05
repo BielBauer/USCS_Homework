@@ -10,12 +10,16 @@ Console.WriteLine("Entre abaixo com o segundo valor: ");
 valor2 = int.Parse(Console.ReadLine());
 
 if (valor1 == valor2)
-            
+{            
 Console.WriteLine("Os valores informados são iguais!");
-            
+}           
+else if (valor1 > valor2)
+{
+Console.WriteLine("Os valores informados são diferentes! o maior valor é {0}!", valor1);
+}
 else
-            
-Console.WriteLine("Os valores informados são diferentes!");
-            
+{
+Console.WriteLine("Os valores informados são diferentes! o maior valor é {0}!", valor2);
+}
 Console.ReadKey();
 }
