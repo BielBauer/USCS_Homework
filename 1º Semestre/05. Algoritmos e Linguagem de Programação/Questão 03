@@ -13,6 +13,7 @@ Console.WriteLine("Desta vez, entre abaixo com o seu total de vendas neste mês:
 totalvendas = double.Parse(Console.ReadLine());
 
 comissao = totalvendas * 0.2;
+
 salariofinal = salariofixo + comissao;
 
 Console.WriteLine("{0}, considerando o valor fixo de seu salário, na quantia de R$ {1}, e adicionando 20% de R$ {2}, que foi o total de suas vendas no mês, seu salário deste mês será de R$ {3}.", nome, salariofixo, totalvendas, salariofinal);
