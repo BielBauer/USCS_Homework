@@ -8,16 +8,10 @@ Console.WriteLine("Jogador, entre abaixo com sua idade: ");
 idade = int.Parse(Console.ReadLine());
 
 if (idade <= 13)
-{
-Console.WriteLine("Sua categoria é: infantil.");
-}
+    Console.WriteLine("Sua categoria é: infantil.");
 else if (idade <= 17)
-{
-Console.WriteLine("Sua categoria é: juvenil.");
-}
+    Console.WriteLine("Sua categoria é: juvenil.");
 else
-{
-Console.WriteLine("Sua categoria é: sênior.");
-}
+    Console.WriteLine("Sua categoria é: sênior.");
 Console.ReadKey();
 }
