@@ -4,7 +4,7 @@
 // Os conjuntos têm 10 elementos cada. Imprimir todos os conjuntos (arrays).
 
 
-            // Definição de Variáveis e arrays e entrada de valores no primeiro array:
+// Definição de Variáveis e arrays e entrada de valores no primeiro array:
 
             int i;
             int[] numeros = new int[10];
