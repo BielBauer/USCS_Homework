@@ -16,6 +16,5 @@ else
 {
 Console.WriteLine("O valor informado é ímpar!");
 }
-
 Console.ReadKey();
 }
