@@ -17,6 +17,6 @@ nota3 = double.Parse(Console.ReadLine());
 media = (nota1 + nota2 + nota3) / 3;
 
 Console.WriteLine("{0}, sua média neste semestre é de {1}.", nome, media);
-            
+
 Console.ReadKey();
 }
