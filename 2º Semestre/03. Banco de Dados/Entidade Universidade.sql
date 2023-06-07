@@ -4,4 +4,3 @@ CREATE TABLE "UNIVERSIDADE" (
 	"CNPJ_universidade"	VARCHAR(50),
 	PRIMARY KEY("CNPJ_universidade")
 );
-
