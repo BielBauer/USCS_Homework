@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento salarial</title>
+</head>
+<body>
+    <script>
+        let salario = Number(prompt("Entre com o valor do salário atual:"));
+        let percentual = Number(prompt("Entre com o percentual de aumento:"));
+
+        let aumento = ((percentual/100) * salario) + salario;
+
+        alert("Salário atual: R$" + salario);
+        alert("Porcentagem de percentual: " + percentual + "%");
+        alert("Salário futuro: R$"+ aumento);
+
+        console.log("Salário atual: " + salario);
+        console.log("Porcentagem de percentual: " + percentual);
+        console.log("Salário futuro: "+ aumento);
+      
+    </script>
+</body>
+</html>
